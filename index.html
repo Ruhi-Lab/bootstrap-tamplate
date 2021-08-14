@@ -1,0 +1,234 @@
+<html>
+<head>
+
+<script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+
+<style>
+
+*{
+//border:1px solid red;
+margin:0;
+padding:0;
+font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.nav-bar{
+height:40px;
+display:flex;
+justify-content: space-between;
+padding:12px;
+background-color:#7952b3;
+}
+
+
+#b{
+height:40px;
+width:40px;
+cursor:pointer;
+}
+
+#nav-box{
+display:flex;
+align-items: center;
+}
+
+#nav-2{
+display:flex;
+align-items: center;
+}
+
+.iconify{
+padding:6px;
+color: rgba(255,255,255,0.85);
+cursor:pointer;
+}
+
+
+#button{
+color: #ffe484; 
+border:1px solid #ffe484;
+border-radius:6px;
+background-color: transparent;
+font-weight: 600;
+font-size:16px;
+padding:8px 14px;
+margin-left:16px;
+cursor:pointer;
+}
+
+#button:hover{
+background-color:#ffe484; 
+color:black;
+}
+
+.links{
+height:24px;
+background-color:#7952b3;
+color: rgba(255,255,255,0.85);
+font-size:16px;
+text-decoration: none;
+padding:8px;
+}
+
+.links:hover{
+color:#fff;
+}
+
+
+h1{
+line-height:1;
+font-size:63px;
+font-weight:500;
+margin-bottom:16px;
+color:#212529;
+font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+p{
+font-size:24px;
+margin-bottom:24px;
+color:#495057;
+line-height:1.5;
+}
+
+
+#started-btn{
+color: #fff;
+background-color: #7952b3;
+border:1px solid #7952b3;
+margin:0px 16px 16px 0px;
+}
+
+#started-btn:hover{
+background:#6d4587;
+}
+
+#download-btn{
+color: #6c757d;
+border:1px solid #6c757d;
+background-color: transparent;
+margin:0px 0px 16px 0px;
+}
+
+#download-btn:hover{
+background-color:#6c757d;
+color:#fff;
+}
+
+
+#download-btn, #started-btn{
+padding:14px 32px;
+font-size:20px;
+border-radius:6px;
+cursor:pointer;
+}
+
+
+h1, p, #btns-box{
+width:645px;
+}
+
+.inner-container{
+width:fit-content;
+padding-top:49px;
+display: flex;
+margin:0 auto;
+}
+
+
+#img{
+height:370px;
+width:452px;
+}
+
+#version, .ver{
+font-size:16px;
+color:#6c757d;
+}
+
+.ver{
+color:#6c757d;
+}
+
+#right-box{
+padding-right:12px;
+margin-left:12px;
+margin-top:24px;
+}
+
+#container{
+
+background: linear-gradient(
+166deg,#f7f5fb 50%, #fff 50%);
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<div class="nav-bar">
+
+<div id="nav-box">
+<img id="b" src="C:\Users\Admin\Desktop\pics\logo.jpeg">
+
+
+<a class="links" href=""> Home </a>
+<a class="links" href=""> Docs </a>
+<a class="links" href=""> Examples </a>
+<a class="links" href=""> Icons </a>
+<a class="links" href=""> Themes </a>
+<a class="links" href=""> Blog </a>
+</div>
+
+<div id="nav-2">
+<span class="iconify" data-icon="ant-design:github-filled" style="color: rgba(255,255,255,0.85);" data-width="18"></span>
+
+<span class="iconify" data-icon="ei:sc-twitter" style="color:rgba(255,255,255,0.85);" data-width="28"></span>
+
+<span class="iconify" data-icon="jam:slack-square" style="color: rgba(255,255,255,0.85);" data-width="20"></span>
+
+<span class="iconify" data-icon="gg:open-collective" style="color:rgba(255,255,255,0.85);" data-width="20"></span>
+
+<button id="button"> Download </button>
+
+</div>
+</div>
+
+<div id="container">
+<div class="inner-container">
+
+<div id="left-box">
+
+<h1>
+Build fast, responsive<br> sites with Bootstrap
+</h1>
+
+<p>Quickly design and customize responsive mobile-first sites<br> with Bootstrap, the world’s most popular front-end open<br> source toolkit, featuring Sass variables and mixins,<br> responsive grid system, extensive prebuilt components, and<br> powerful JavaScript plugins.</p>
+
+<div id="btns-box">
+<button id="started-btn"> Get started </button>
+<button id="download-btn"> Download </button>
+</div>
+
+<p id="version">Currently<b>  v5.1.0</b><span> . </span>
+<a class="ver" href="">v4.6.x docs </a> <span> . </span>
+<a class="ver" href="">All releases </a>
+</p>
+</div>
+
+
+<div id="right-box">
+<svg id="img">       
+     <image xlink:href="bsp.svg" src="bsp.svg" height="395px";
+width="452px"; />    
+</svg>
+</div>
+
+</div>
+
+</div>
+</body>
+</html>
